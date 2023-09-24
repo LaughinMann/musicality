@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap');
+
+.loginBtn {
+    color: #36EB7EFF;
+    background: #060620;
+    border: 2px solid #36EB7EFF;
+    width: 16em;
+    letter-spacing: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.exitBtn {
+    color: #eb3636;
+    background: #060620;
+    border: 2px solid #eb3636;
+    width: 16em;
+    letter-spacing: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.exitBtn:hover {
+    background: linear-gradient(135deg, rgb(235, 54, 54) 0%, rgb(192, 34, 34) 100%);
+    color: #060620;
+}
+
+.loginBtn:hover {
+    background: linear-gradient(135deg, rgba(54,235,126,1) 0%, rgba(34,192,134,1) 100%);
+    color: #060620;
+}
+
+.header {
+    min-height: 85px;
+    background-color: #060620;
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+    padding: 1.25em 4em;
+}
+
+.centerList a {
+    color: white;
+}
+
+.centerList a:hover {
+    color: #e1e1e1;
+}
+
+.Logo {
+    margin-right: 1em;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(251deg) brightness(107%) contrast(109%);
+}
+
+.mobileMenu {
+    background-color: #060620;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.mobileMenu:hover {
+    background-color: #0a193a;
+}
+
+.mobileMenu:last-child {
+    background: #36EB7EFF;
+}
+
+.mobileMenuRed {
+    background: #eb3636 !important;
+}
+
+.mobileMenuRed:hover {
+    background: #060620 !important;
+    color: white !important;
+}
+
+.mobileMenu:last-child:hover {
+    background: #060620;
+    color: white;
+}
